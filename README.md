@@ -2,6 +2,7 @@
 
 A simple calculator application built using React.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://web-calculator-ruddy-one.vercel.app/)
 ## Features
 
 - Perform basic arithmetic operations
