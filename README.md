@@ -31,3 +31,23 @@ The calculation process is implemented manually using:
 - Operator precedence handling
 - then Reault
 
+## Application Flow
+
+```text
+User Input
+    ↓
+Expression Building
+    ↓
+Tokenization
+    ↓
+Validation
+    ↓
+Parsing (Infix → Postfix Conversion)
+    ↓
+Postfix Evaluation
+    ↓
+Result Generation
+    ↓
+Display Output
+```
+

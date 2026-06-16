@@ -7,13 +7,13 @@ export default function ButtonGrid(props) {
         if(value==='C')
             props.setExpression("");
         else if(value==='=')
-            try{
-                props.setExpression(eval(props.Expression))
-            }catch(e){
-                props.setExpression("Invalid Expression");
-                console.log(e.message="Expression Galat Dale ho, sab gad bad hai");
-            }
-
+            props.runCalculator(props.expression);
+            // try{
+            //     props.setExpression(eval(props.Expression))
+            // }catch(e){
+            //     props.setExpression("Invalid Expression");
+            //     console.log(e.message="Expression Galat Dale ho, sab gad bad hai");
+            // }
     }
   return (
 
