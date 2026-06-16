@@ -1,5 +1,4 @@
 export default function validator(tokens){
-    console.log(tokens);
     const length=tokens.length;
     const operators=["+","-","*","/"];
     if(startwithOperator(tokens) || endWithOperator(tokens))
