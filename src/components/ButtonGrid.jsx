@@ -8,12 +8,6 @@ export default function ButtonGrid(props) {
             props.setExpression("");
         else if(value==='=')
             props.runCalculator(props.expression);
-            // try{
-            //     props.setExpression(eval(props.Expression))
-            // }catch(e){
-            //     props.setExpression("Invalid Expression");
-            //     console.log(e.message="Expression Galat Dale ho, sab gad bad hai");
-            // }
     }
   return (
 

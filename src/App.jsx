@@ -5,7 +5,6 @@ import calculator from './Utillity/calculation'
 import './App.css'
 function App() {
   const [expression, setExpression] = useState("")
-  console.log(expression);
   const runCalculator=(expression)=>{
     setExpression(calculator(expression));
   }
