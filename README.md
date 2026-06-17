@@ -18,6 +18,27 @@ A simple calculator application built using React.
 - CSS
 - Vite
 
+
+##  Structure
+```
+src/
+├── assets/                
+├── components/            # React components
+│   ├── ButtonGrid.jsx
+│   ├── Buttons.jsx
+│   └── Display.jsx
+├── Utility/               # Core calculator logic
+│   ├── calculation.js
+│   ├── evaluator.js
+│   ├── parser.js
+│   ├── tokenizer.js
+│   └── validator.js
+├── App.css                # Global styles
+├── App.jsx                # Root component
+├── index.css              # Base styles
+└── main.jsx               # Entry point
+```
+
 ## Implementation Details
 
 This calculator does not rely on JavaScript's `eval()` function.
@@ -26,9 +47,9 @@ The calculation process is implemented manually using:
 
 - Expression building
 - Tokenization
-- Validator(Parser)
+- Validation
+- Parsing
 - Expression evaluation
-- Operator precedence handling
 - then Reault
 
 ## Application Flow
